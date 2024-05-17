@@ -8,6 +8,14 @@ This is a Project Built on Flow, containing a Registry contract that utilizes St
 
 ## Getting Started
 
+### Structure
+    - Contracts
+        This folder contains the `Registry.cdc` contract, the contract contains registers storage for storing user registers, also contains addRegister function to add user to register
+    - Scripts
+        This folder contains `viewRegister.cdc` script, which allows retrieving users added to registers based on theid last name
+    - Transactions
+        This folder contains `addRegister.cdc` transaction script which takes in the user details like lastname, firstname, address, phone and add to the register dictionary
+        
 ### Executing program
     - Create a new project on flow playground
     - Under the Contracts folder, create a file `Registry.cdc`
