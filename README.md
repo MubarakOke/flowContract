@@ -1,4 +1,4 @@
-# Project Title
+# Register Contract on Flow
 
 Project: Using Structs
 
